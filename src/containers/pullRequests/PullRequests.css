@@ -1,3 +1,7 @@
+.pull-requests-header-div{
+    margin-top: 100px;
+}
+
 .pull-requests-header {
     font-size: 40px;
   line-height: 1.1;
@@ -19,6 +23,11 @@
 }
 
 @media (max-width:768px){
+
+    .pull-requests-header-div{
+       margin-top: 40px;
+    }
+
     .pull-requests-header{
         font-size: 25px;
     }
